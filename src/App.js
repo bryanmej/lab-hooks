@@ -28,18 +28,20 @@ function App() {
 
   return (
     <div className="App">
-      <Counter 
-        counter={count} 
-        increment={increment}
-        decrement={decrement}
-      />
-      <br/>
-      <Form
-        handleChange={handleChange}
-        name={name}
-        surname={surname}
-        age={age}
-      />
+      <div className="container">
+        <Counter 
+          counter={count} 
+          increment={increment}
+          decrement={decrement}
+        />
+        <br/>
+        <Form
+          handleChange={handleChange}
+          name={name}
+          surname={surname}
+          age={age}
+        />
+      </div>    
     </div>
   );
   
